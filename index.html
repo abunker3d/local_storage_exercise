@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just ToDo</title>
+</head>
+
+<style>
+    .strike-through {
+        text-decoration: line-through;
+    }
+
+    li {
+        user-select: none;
+    }
+
+    button {
+        font-size: .6rem;
+        padding: .08rem .2rem;
+        position: relative;
+        top: -.1rem;
+    }
+</style>
+
+<body>
+    <h1>Just ToDo</h1>
+
+    <form>
+        <label>
+            <input type="text" name="new-item" id="new-item" placeholder="Add Item">
+        </label>
+        <label>
+            <input type="submit" value="&#10010;">
+        </label>
+    </form>
+
+    <ul>
+        <!-- <li>ITEM <button>&#10005;</button></li> -->
+    </ul>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
